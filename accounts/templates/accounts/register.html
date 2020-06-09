@@ -1,0 +1,9 @@
+<<h1>register</h1>
+
+<form method="post" action="">
+  {% csrf_token %}
+  {{form.username.label}}
+  {{form.username}}
+
+  <<input type="submit" name="Create User" value="Submit">
+</form>
